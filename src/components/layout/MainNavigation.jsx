@@ -9,8 +9,8 @@ function MainNavigation() {
         <nav>
           <ul>
             <li><Link to='/'>All Meet-ups</Link></li>
-            <li><Link to='/favorites'>Favorites</Link></li>
             <li><Link to='/new-meetups'>New Meet-ups</Link></li>
+            <li><Link to='/favorites'>Favorites</Link></li>
           </ul>
         </nav>
     </header>
