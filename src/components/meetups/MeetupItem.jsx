@@ -18,7 +18,7 @@ function MeetupItem(props) {
         description: props.description,
         image: props.image,
         address: props.address
-      })
+      });
     }
   }
 
@@ -34,11 +34,11 @@ function MeetupItem(props) {
           <p>{props.description}</p>
         </div>
         <div className={classes.actions}>
-          <button onClick={toggleFavoriteStatusHandler}>To {itemIsFavorite ? 'Remove from Favorites' : 'To Favorites'}</button>
+          <button onClick={toggleFavoriteStatusHandler}>{itemIsFavorite ? 'Remove from Favorites' : 'To Favorites'}</button>
         </div>
       </Card>
     </li>
   )
 }
 
-export default MeetupItem
+export default MeetupItem;

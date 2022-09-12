@@ -30,7 +30,7 @@ export function FavoritesContextProvider(props) {
   const context = {
     favorites: userFavorites,
     totalFavorites: userFavorites.length,
-    addFovrite: addFavoriteHandler,
+    addFavorite: addFavoriteHandler,
     removeFavorite: removeFavoriteHandler,
     itemIsFavorite: itemIsFavoriteHandler
 
